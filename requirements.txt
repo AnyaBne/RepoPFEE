@@ -31,7 +31,6 @@ dask==2021.4.1
 debugpy==1.5.1
 decorator==5.1.0
 defusedxml==0.7.1
--e git+https://github.com/facebookresearch/detectron2.git@9921a2caa585d4fa66c4b534b6fab6e74d89b582#egg=detectron2
 distlib==0.3.5
 dnspython==2.2.1
 entrypoints==0.3
@@ -127,7 +126,6 @@ Pygments==2.10.0
 pylibsrtp==0.7.1
 Pympler==1.0.1
 pyparsing==2.4.7
-pypiwin32==223
 pyrsistent==0.18.0
 pysat==3.0.0
 pytesseract==0.3.8
@@ -135,8 +133,6 @@ pytest==6.2.3
 python-dateutil==2.8.1
 pytz==2021.1
 pytz-deprecation-shim==0.1.0.post0
-pywin32==304
-pywinpty==1.1.6
 PyYAML==5.4.1
 pyzmq==22.3.0
 qtconsole==5.2.2
@@ -170,9 +166,9 @@ timm==0.6.7
 toml==0.10.2
 tomli==2.0.1
 toolz==0.11.1
-torch==1.10.2+cpu
-torchaudio==0.10.2+cpu
-torchvision==0.11.3+cpu
+torch
+torchaudio
+torchvision
 tornado==6.1
 tqdm==4.64.0
 traitlets==5.1.1
